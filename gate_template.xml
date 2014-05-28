@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument>
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Z:/2nd%20Year/applications/new%20application/SNOMED%20CT/test/test.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0" />Latex<Node id="5" />.<Node id="6" />
+<Node id="7" />Latices<Node id="14" />.<Node id="15" />
+<Node id="16" />He<Node id="18" /> <Node id="19" />was<Node id="22" /> <Node id="23" />moving<Node id="29" /> <Node id="30" />with<Node id="34" /> <Node id="35" />his<Node id="38" /> <Node id="39" />legs<Node id="43" />.<Node id="44" /></TextWithNodes>
+
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="SNOMED Candidates">
+<Annotation Id="32" Type="Attribute" StartNode="30" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">Rule</Name>
+  <Value className="java.lang.String">Test14</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="ProductOrSubstance" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">Rule</Name>
+  <Value className="java.lang.String">Test8</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="ProductOrSubstance" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">Rule</Name>
+  <Value className="java.lang.String">Test8</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+</GateDocument>
